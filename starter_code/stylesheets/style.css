@@ -9,7 +9,7 @@ nav grey: #5b5e6d;
 * {
     margin: 0;
     padding: 0;
-    font-family: FontAwesome;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -69,6 +69,7 @@ header h1 {
 
 header p {
     color: #5b5e6d;
+    padding: 20px 0px;
 }
 
 header button {
@@ -328,12 +329,13 @@ footer img {
         font-size: 60px;
     }
 
-    header div button {
-        margin: 0;
-        align-self: left;
+    header button {
+        align-self: flex-start;
     }
 
     .img-div {
         order: 0;
+        height: 30%;
+        width: auto;
     }
  }
