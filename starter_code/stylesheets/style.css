@@ -163,6 +163,7 @@ main button {
 footer {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 .links {
